@@ -12,7 +12,7 @@ const Quotes = () => {
         try{
             const res = await axios.get(URL);
             const data = JSON.parse(JSON.stringify(res.data))
-            // console.log(data)
+            console.log(data)
             setQuote({ content: data.content, author: data.author})
         }
         catch (err) {
