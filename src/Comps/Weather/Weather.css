@@ -1,0 +1,5 @@
+.weather_data{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}

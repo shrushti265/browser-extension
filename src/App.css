@@ -1,0 +1,71 @@
+.App{
+  font-family: "varela Round", "sans-serif";
+  color: var(--primary-color)
+}
+
+:root{
+  --primary-color: #daeaf1;
+}
+
+h1,h2,h3,p{
+  margin-top: 0;
+  padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+}
+
+img{
+  object-fit: cover;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid var(--primary-color);
+  text-align: center;
+  font-size: 2rem;
+  color: var(--primary-color);
+  background: rgba(0, 0, 0, 0);
+}
+
+.mt{
+  margin-top: 1rem;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.mr{
+  margin-right: 1rem;
+}
+
+.mt{
+  margin-top: 1rem
+}
+.mt-s{
+  margin-top: 5px
+
+}
+
+.flex-jc-sb{
+  display: flex;
+  justify-content: space-between;
+}

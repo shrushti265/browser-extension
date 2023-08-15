@@ -1,0 +1,32 @@
+.time {
+  font-size: 8rem;
+}
+.greeting {
+  font-size: 2.5rem;
+}
+.question-tag {
+  font-size: 2rem;
+}
+.tag {
+  font-size: 1.5rem;
+}
+.task {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.box-task {
+  transition: all 0.3s ease;
+}
+.icon-edit {
+  /* display: none; */
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.task-dropdown {
+  display: none;
+}
+.task-dropdown-show {
+  display: block;
+}
